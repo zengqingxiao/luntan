@@ -1,69 +1,11 @@
 <template>
   <view class="index">
-    <div class="header">
-      <img src="/static/logo.png" alt />
-      <div class="v-1">洪山区</div>
-      <input class="input" value="搜索" />
-    </div>
     <div class="content">
-      <div class="h container">
-        <img class="h-img" src="/static/logo.png" alt srcset />
-        <div class="icon-nav">
-          <div class="list">
-            <img src="/static/logo.png" alt />
-            <div>堂点资讯</div>
-          </div>
-          <div class="list">
-            <img src="/static/logo.png" alt />
-            <div>附近堂点</div>
-          </div>
-          <div class="list">
-            <img src="/static/logo.png" alt />
-            <div>婚恋家庭</div>
-          </div>
-          <div class="list">
-            <img src="/static/logo.png" alt />
-            <div>灵修讲章</div>
-          </div>
-          <div class="list">
-            <img src="/static/logo.png" alt />
-            <div>音频视频</div>
-          </div>
-          <div class="list">
-            <img src="/static/logo.png" alt />
-            <div>音乐敬拜</div>
-          </div>
-          <div class="list">
-            <img src="/static/logo.png" alt />
-            <div>亲子教育</div>
-          </div>
-          <div class="list">
-            <img src="/static/logo.png" alt />
-            <div>硬件设备</div>
-          </div>
-          <div class="list">
-            <img src="/static/logo.png" alt />
-            <div>公益慈善</div>
-          </div>
-          <div class="list">
-            <img src="/static/logo.png" alt />
-            <div>课件下载</div>
-          </div>
-        </div>
-      </div>
-      <div class="notice">
-        <div class="L">
-          <span class="s-1">同城</span>
-          <span class="s-2">公告</span>
-        </div>
-        <div class="R">某某大牌最新推出新品上新</div>
-      </div>
       <div class="card">
         <view class="h-lists" style="margin-top: 20upx;">
           <zzx-tabs
             activeColor="#000"
             :items="items"
-            label
             :current="current"
             @clickItem="onClickItem"
             ref="mytabs"
@@ -494,7 +436,6 @@ export default {
           }
           .d-3 {
             display: flex;
-            flex-wrap: wrap;
             justify-content: space-between;
             margin-top: 30rpx;
             .list {
@@ -502,16 +443,16 @@ export default {
               width: 33.33%;
               text-align: center;
               img {
-                width: 200rpx;
-                height: 160rpx;
+                width: 180rpx;
+                height: 180rpx;
                 margin: auto;
                 object-fit: cover;
               }
               .shade {
                 position: absolute;
-                width: 200rpx;
-                height: 160rpx;
-                line-height: 160rpx;
+                width: 180rpx;
+                height: 180rpx;
+                line-height: 180rpx;
                 top: 0;
                 left: 0;
                 right: 0;
