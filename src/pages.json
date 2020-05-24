@@ -107,6 +107,18 @@
       "style": {
         "navigationBarTitleText": "我的钱包"
       }
+    },
+    {
+      "path": "pages/daily-attendance/daily-attendance",
+      "style": {
+        "navigationBarTitleText": "每日签到"
+      }
+    },
+    {
+      "path": "pages/publish-content/publish-content",
+      "style": {
+        "navigationBarTitleText": "发布"
+      }
     }
   ],
   "condition": {
@@ -114,7 +126,7 @@
     "list": [
       {
         "name": "test",
-        "path": "pages/my-wallet/my-wallet"
+        "path": "pages/publish-content/publish-content"
       }
     ]
   },
